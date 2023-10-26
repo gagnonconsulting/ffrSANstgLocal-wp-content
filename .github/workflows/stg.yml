@@ -2,7 +2,7 @@ name: Deploy to a WP Engine Staging environment
 on:
   push:
     branches:
-     - stg
+     - stage
 jobs:
   build:
     runs-on: ubuntu-latest
